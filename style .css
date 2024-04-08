@@ -4,7 +4,7 @@
 .navbar h3 {
     font-family: "Bungee Spice", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style:normal
   }
 .navbar{
     display: flex;
@@ -21,3 +21,30 @@
     text-decoration: none;
     color: black;
 }
+/* Hello welcome banner */
+.welcome-banner{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 165px;
+    background-color: #131f33;
+}
+.hello{
+    max-width: 500px;
+}
+.hello>h3{
+    color: #EAB308;
+    margin-bottom: 20px;
+}
+.hello>h1{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hello p{
+    color: #6B7280;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
