@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+}
+.navbar h3 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 165px;
+    background-color: #9CA3AF;
+}
+.navbar>ul>li{
+    display: inline;
+    padding: 0px 20px;
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
