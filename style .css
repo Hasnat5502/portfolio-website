@@ -122,7 +122,7 @@
 }
 .variety-1{
     height: 200px;
-    width: 200px;
+    width: 400px;
     background-color: #11161d;
     text-align: center;
     padding: 20px;
@@ -135,7 +135,7 @@
 }
 .variety-2{
     height: 200px;
-    width: 200px;
+    width: 400px;
     background-color: #11161d;
     text-align: center;
     padding: 20px;
@@ -148,7 +148,7 @@
 }
 .variety-3{
     height: 200px;
-    width: 200px;
+    width: 400px;
     background-color: #11161d;
     text-align: center;
     padding: 20px;
@@ -158,4 +158,138 @@
 }
 .variety-3 >p{
     color: #6B7280;
+}
+/* My portfolio section */
+.my-portfolio{
+    padding: 90px 165px;
+    background-color:#11161d;
+}
+.my-portfolio-text-details>h1{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+}
+.my-portfolio-text-details>p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6B7280;
+}
+.albums{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+/* My experince section */
+.my-experience{
+    padding: 90px 165px;
+    background-color: #131f33;
+}
+.my-experience-text>h1{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px; 
+}
+.my-experience-text>p{
+    text-align: center;
+    color: #6B7280;
+    margin-bottom: 30px;
+}
+.my-experience-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.my-experience-bar-1{
+    height: 200px;
+    width: 400px;
+    background-color: #11161d;
+    padding: 20px;
+}
+.my-experience-bar-2{
+    height: 200px;
+    width: 400px;
+    background-color: #11161d;
+    padding: 20px;
+}
+.my-experience-bar-3{
+    height: 200px;
+    width: 400px;
+    background-color: #11161d;
+    padding: 20px;
+}
+/* contact me section */
+.contact-me{
+    height: 400px;
+    padding: 90px 165px;
+    background-color: #11161d;
+}
+.contact-me-text>h1{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.contact-me-text>p{
+    color: #6B7280;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-me-information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+.personal-details{
+    height: 400px;
+    max-width: 50%;
+}
+.personal-details>h4{
+    padding: 0px 50px 40px 20px;
+    color: white;
+}
+.personal-details>h4>a{
+    text-decoration: none;
+    color: white;
+}
+.form{
+    display: flex;
+    height: 400px;
+    max-width: 50%;
+}
+form>label>input{
+    height: 50px;
+    width: 300px;
+}
+form label>textarea{
+    margin-top: 30px;
+}
+form button{
+    margin-top: 20px;
+}
+/* fotter */
+.fotter{
+    padding: 90px 165px;
+    background-color: #11161d;
+}
+.fotter h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.fotter p{
+    text-align: center;
+    color: #6B7280;
+    font-size: 14px;
+}
+.icons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
