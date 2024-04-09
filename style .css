@@ -4,31 +4,39 @@
 .navbar h3 {
     font-family: "Bungee Spice", sans-serif;
     font-weight: 400;
-    font-style:normal
+    font-style:normal;
+    padding-left: 165px;
   }
 .navbar{
+    height: 100px;
+    width: 100%;
+    background-color:#11161d;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 165px;
-    background-color: #9CA3AF;
+    position: fixed;
+    top: 0;
+}
+.navbar>ul{
+    padding-right: 165px;
 }
 .navbar>ul>li{
     display: inline;
-    padding: 0px 20px;
 }
 .navbar>ul>li>a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
 }
 /* Hello welcome banner */
 .welcome-banner{
-    height: 500px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 165px;
     background-color: #131f33;
+    margin-top: 100px;
 }
 .hello{
     max-width: 500px;
@@ -55,3 +63,33 @@
     border: 0px;
 }
 
+/* about me section */
+.About-me{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 165px;
+    background-color: #11161d;
+}
+.About-me-image-1{
+    height: 480px;
+    width: 456px;
+    background-image: url(photos/Rectangle\ 1004.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto 0px;
+}
+.details-about{
+    max-width: 500px;
+    margin: auto 0px;
+}
+.details-about>h1{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.details-about>p{
+    color: #6B7280;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
