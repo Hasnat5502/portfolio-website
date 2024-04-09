@@ -93,3 +93,69 @@
     font-size: 16px;
     margin-bottom: 30px;
 }
+/* My service sections */
+.my-service{
+    height: 400px;
+    background-color: #131f33;
+    padding: 90px 165px;
+}
+.my-service-text{
+    color: white;
+}
+.my-service-text>h1{
+    font-size: 48px;
+    text-align: center;
+
+}
+.my-service-text>p{
+    font-size: 14px;
+    color: #6B7280;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.my-service-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.variety-1{
+    height: 200px;
+    width: 200px;
+    background-color: #11161d;
+    text-align: center;
+    padding: 20px;
+}
+.variety-1 h3{
+    color: white;
+}
+.variety-1 >p{
+    color: #6B7280;
+}
+.variety-2{
+    height: 200px;
+    width: 200px;
+    background-color: #11161d;
+    text-align: center;
+    padding: 20px;
+}
+.variety-2 h3{
+    color: white;
+}
+.variety-2 >p{
+    color: #6B7280;
+}
+.variety-3{
+    height: 200px;
+    width: 200px;
+    background-color: #11161d;
+    text-align: center;
+    padding: 20px;
+}
+.variety-3 h3{
+    color: white;
+}
+.variety-3 >p{
+    color: #6B7280;
+}
